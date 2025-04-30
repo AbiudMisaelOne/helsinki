@@ -57,7 +57,10 @@ const App = () => {
         text="siguiente anécdota" 
         handleClick={nextAnecdote}
       />
-      <Button text="Votar" handleClick={handleVote}/>
+      <Button 
+        text="Votar" 
+        handleClick={handleVote}
+      />
 
       <h1>Anécdota con más votos</h1>
       <p>{mostVoted.anecdote}</p>
